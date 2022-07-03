@@ -24,7 +24,7 @@ const styles = {
 const theme = createTheme({
   palette: {
     neutral: {
-      main: "#64748B",
+      main: "#fff",
       contrastText: "#fff",
     },
     active: {

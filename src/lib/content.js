@@ -1,4 +1,5 @@
 //You can modify each field with new text or a route to a new image. Adding new sections will require adding new nav buttons to Header.js and modifying the switch in HomePage.js
+import React from 'react';
 
 const content = {
   1: {

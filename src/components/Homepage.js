@@ -100,7 +100,7 @@ const HomePage = (props) => {
             {data.leftColumn.map((m) => {
               return (
                 <Grid item container direction="column" spacing={1} >
-                  {m.image && <Grid item justifyContent={m.title === "Aakriti Barat" ? "center": "flex-start"}><img className={props.classes.image} src={m.image} /></Grid>}
+                  {m.image && <Grid item justifyContent={m.title === "Aakriti Barat" ? "center": "flex-start"}><img alt="me" className={props.classes.image} src={m.image} /></Grid>}
 
                     {m.subHeading && <Grid item >
                       <p className={props.classes.subHeading}>
@@ -120,7 +120,7 @@ const HomePage = (props) => {
             {data.rightColumn.map((m) => {
               return (
                 <Grid item container direction="column" spacing={1}>
-                  {m.image && <Grid item container justifyContent={id === 1 ? "center": "flex-start"}><img className={props.classes.image} src={m.image} /></Grid>}
+                  {m.image && <Grid item container justifyContent={id === 1 ? "center": "flex-start"}><img alt="stuff" className={props.classes.image} src={m.image} /></Grid>}
                   {m.subHeading && 
                     <Grid item>
                       <p className={props.classes.subHeading}>

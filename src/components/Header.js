@@ -34,10 +34,8 @@ const theme = createTheme({
 });
 
 const Header = (props) => {
-  const [activeButton, setActiveButton] = useState(1);
 
   const handleButton = (button) => {
-    setActiveButton(button);
     props.handleButton(button);
   };
 

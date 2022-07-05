@@ -12,7 +12,7 @@ const content = {
         subHeading: null,
         text:
           "My name is Aakriti Barat and I am a PhD candidate in Electrical Engineering at Ohio University, advised by Dr. Savas Kaya. My research is focused on cybersecurity in hardware design."
-      }
+      },
       {
         image: null,
         subHeading: null,

@@ -180,7 +180,7 @@ const content = {
       {
         image: null,
         subHeading: "Email",
-        text: `Add your email here`,
+        text: `aakritibarat09@gmail.com`,
       },
       {
         image: null,
@@ -190,7 +190,7 @@ const content = {
       {
         image: null,
         subHeading: "Advisor Email",
-        text: `Add advisor's email here`,
+        text: <a href="kaya@ohio.edu">kaya@ohio.edu</a>
       },
       
       {
